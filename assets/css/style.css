@@ -509,7 +509,7 @@ body {
 \*-----------------------------------*/
 
 .about {
-  padding-block-start: 40px;
+  margin-block-start: 80px;
 }
 
 .about-content {
@@ -669,6 +669,10 @@ body {
   .hero .p {
     font-size: var(--size18);
   }
+
+  .about {
+    margin-block-start: 100px;
+  }
 }
 
 /**
@@ -712,8 +716,8 @@ body {
    * HERO
    */
 
-  .hero {
-    padding-block-start: 195px;
+  .hero .container {
+    height: 90vh;
   }
 
   .hero .h1 {
@@ -863,7 +867,8 @@ body {
     font-size: var(--size42);
   }
 
-  .hero .p {
+  .hero-content .p {
+    margin-inline: auto;
     max-width: 42ch;
     font-size: var(--size24);
   }
@@ -932,7 +937,7 @@ body {
    */
 
   .about {
-    padding-block-start: 80px;
+    margin-block-start: 0px;
   }
 
   .about .container {
@@ -998,6 +1003,22 @@ body {
   }
 
   /*
+   * HERO
+   */
+
+  .hero .container {
+    height: 90vh;
+  }
+
+  /* .hero-content .h1{
+    font-size: 45px;
+  } */
+
+  .hero-content .p {
+    max-width: unset;
+  }
+
+  /*
    * ABOUT
    */
 
@@ -1026,7 +1047,7 @@ body {
   .column2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 
   .about-img-wrapper::-webkit-scrollbar {
@@ -1044,5 +1065,72 @@ body {
   .about-img-wrapper .img-cover {
     width: auto;
     height: 100%;
+  }
+}
+
+/**
+ * Responsive for larger than 1400px screen
+ */
+
+@media (min-width: 1400px) {
+  /** REUSED STYLE
+   *
+   */
+
+  .container {
+    max-width: 1350px;
+  }
+
+  /*
+   * HERO
+   */
+
+  .hero-content .h1 {
+    font-size: 45px;
+  }
+
+  /*
+   * WORK
+   */
+
+  .work-item {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+  }
+
+  .workBox-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 35px;
+    max-width: unset;
+    /* width: 40%; */
+  }
+
+  /*
+   * ABOUT
+   */
+
+  .about .container {
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+  }
+
+  .about-title {
+    text-transform: uppercase;
+    font-weight: var(--semiBold);
+    font-size: var(--size16);
+    letter-spacing: 0.04em;
+    margin-bottom: 15px;
+  }
+
+  .about-text {
+    width: unset;
+  }
+
+  .about-img-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
   }
 }
