@@ -586,12 +586,12 @@ body {
 .cta-socials {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
   margin-top: 60px;
 }
 
 .cta-socials ion-icon {
-  font-size: var(--size32);
+  font-size: var(--size24);
   color: var(--platinum2);
 }
 
@@ -791,6 +791,22 @@ body {
   .workBox-right .btn {
     margin-top: 10px;
   }
+
+  /*
+   * FOOTER
+   */
+
+  .cta-socials {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+  }
+
+  .cta-socials ion-icon {
+    font-size: var(--size32);
+    color: var(--platinum2);
+  }
 }
 
 /**
@@ -987,6 +1003,22 @@ body {
   .about-img-wrapper .img-cover {
     width: auto;
     height: 100%;
+  }
+
+  /*
+   * FOOTER
+   */
+
+  .cta-socials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+  }
+
+  .cta-socials ion-icon {
+    font-size: var(--size32);
+    color: var(--platinum2);
   }
 }
 
