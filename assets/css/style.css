@@ -344,15 +344,6 @@ body {
   }
 }
 
-/* .header .logo-icon {
-  width: 50px;
-  height: auto;
-}
-
-.header .logo-path {
-  fill: var(--platinum1);
-} */
-
 .navbar {
   position: fixed;
   top: 0px;
@@ -425,7 +416,6 @@ body {
   color: var(--richBlack);
   padding-block: 8px;
   transition: var(--transition-1);
-  /* padding-left: 10px; */
 }
 
 .navbar-link::before {
@@ -452,20 +442,15 @@ body {
   #HERO
 \*-----------------------------------*/
 
-.hero {
-  height: 100vh;
-  padding-block-start: 175px;
-}
-
 .hero .container {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.hero .p {
+.hero-content .p {
   margin-block-start: 15px;
   font-size: var(--size14);
   font-weight: var(--regular);
@@ -474,11 +459,6 @@ body {
 /*-----------------------------------*\
   #WORK
 \*-----------------------------------*/
-
-.work {
-  padding-block-start: 40px;
-  margin-bottom: 80px;
-}
 
 .work .section-subtitle {
   margin-block-end: 40px;
