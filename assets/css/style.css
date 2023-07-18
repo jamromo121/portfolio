@@ -442,6 +442,10 @@ body {
   #HERO
 \*-----------------------------------*/
 
+.hero {
+  padding-block-end: 0;
+}
+
 .hero .container {
   height: 100vh;
   display: flex;
@@ -616,24 +620,6 @@ body {
   display: inline;
 }
 
-/* FOR DESKTOP */
-/* .about-img-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.column2 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-} */
-
-/* FOR DESKTOP */
-/* .work-item:nth-child(2n) .workBox-left {
-  order: 1;
-} */
-
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -716,8 +702,12 @@ body {
    * HERO
    */
 
+  .hero {
+    padding-block-end: 0;
+  }
+
   .hero .container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .hero .h1 {
@@ -1033,18 +1023,6 @@ body {
   .container {
     max-width: 1150px;
   }
-
-  /*
-   * HERO
-   */
-
-  .hero .container {
-    height: 90vh;
-  }
-
-  /* .hero-content .h1{
-    font-size: 45px;
-  } */
 
   .hero-content .p {
     max-width: unset;
