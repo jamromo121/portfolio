@@ -730,7 +730,7 @@ body {
   .work .section-subtitle {
     font-size: 20px;
     margin-block-end: 60px;
-    max-width: 29ch;
+    max-width: 39ch;
   }
 
   .work-item {
@@ -886,7 +886,7 @@ body {
   .work .section-subtitle {
     font-size: var(--size24);
     margin-block-end: 40px;
-    max-width: 29ch;
+    max-width: 39ch;
   }
 
   .work-item {
