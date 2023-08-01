@@ -17,5 +17,3 @@ jobs:
         server: emmanuelakbi.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/
-  
