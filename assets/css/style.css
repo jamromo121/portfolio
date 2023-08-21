@@ -468,6 +468,12 @@ body {
   margin-block-end: 40px;
 }
 
+/* .see-more{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5rem;
+} */
+
 .work-list {
   display: grid;
   gap: 60px;
