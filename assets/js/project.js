@@ -14,8 +14,8 @@ export const project = [
     title: "Travelia Agency",
     description:
       "Landing Page for Travelia <span>Travel Agency</span> Service with <span>Clean UI and Interactive Design</span>",
-    category: "JavaScript",
-    others: "",
+    category: "JavaScript,",
+    others: "HTML, CSS",
     img: "./assets/img/work2.png",
     link: "https://traveliaagency.netlify.app/",
   },
@@ -24,8 +24,8 @@ export const project = [
     title: "Firebase Task Manager",
     description:
       "Task Manager With <span>Firebase Authentication</span> And <span>Firestore</span> CDN - JS ES6, HTML and CSS",
-    category: "Javascript",
-    others: "",
+    category: "Javascript,",
+    others: "HTML, CSS",
     img: "./assets/img/work3.png",
     link: "https://lovely-madeleine-ab3068.netlify.app/",
   },
@@ -34,8 +34,8 @@ export const project = [
     title: "Weather App",
     description:
       " A Weather App with the <span>Open Weather API</span> to display current <span>weather information</span> based on location</span>",
-    category: "JavaScript",
-    others: "",
+    category: "JavaScript,",
+    others: "HTML, CSS",
     img: "./assets/img/work4.png",
     link: "https://cheery-madeleine-a3db79.netlify.app/",
   },
@@ -45,7 +45,7 @@ export const project = [
     description:
       "A Form Validation built with <span>JavaScript and Bootstrap</span> to Validate <span>Email Address</span> and input data",
     category: "JavaScript,",
-    others: "Bootstrap 5",
+    others: "Bootstrap 5, CSS",
     img: "./assets/img/work5.png",
     link: "https://keen-bavarois-0eb8c4.netlify.app/",
   },
