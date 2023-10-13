@@ -1030,6 +1030,10 @@ body {
     max-width: 1150px;
   }
 
+  .hero-content .h1{
+    font-size: 33px;
+  }
+
   .hero-content .p {
     max-width: unset;
   }
@@ -1102,7 +1106,7 @@ body {
    */
 
   .hero-content .h1 {
-    font-size: 45px;
+    font-size: 39px;
   }
 
   /*
