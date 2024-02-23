@@ -1,16 +1,6 @@
 export const project = [
   {
     id: 8,
-    title: "CashWise Bank App",
-    description:
-      "A prototype bank app <span> for the visual impaired. </span> it has features <span>Text to speech for accessibility </span>.",
-    category: "Design,",
-    others: "Adobe XD",
-    img: "./assets/img/work8.png",
-    link: "https://xd.adobe.com/view/948b0329-3878-4714-9de8-2ef0b99ee092-c1d8/",
-  },
-  {
-    id: 7,
     title: "Optimuz Homez",
     description:
       "Optimuz Homez is a real estate app for <span> Property, Rent </span>and <span>Sales</span>.",
@@ -18,6 +8,16 @@ export const project = [
     others: "Figma",
     img: "./assets/img/work7.png",
     link: "https://www.figma.com/file/QdGMxn0FQWA5hDriMLdoSl/OptimuzHomez?type=design&node-id=0%3A1&mode=design&t=UWWMa35vNYAkS57A-1",
+  },
+  {
+    id: 7,
+    title: "CashWise Bank App",
+    description:
+      "A prototype bank app <span> for the visual impaired. </span> it has features <span>Text to speech for accessibility </span>.",
+    category: "Design,",
+    others: "Adobe XD",
+    img: "./assets/img/work8.png",
+    link: "https://xd.adobe.com/view/948b0329-3878-4714-9de8-2ef0b99ee092-c1d8/",
   },
   {
     id: 6,
