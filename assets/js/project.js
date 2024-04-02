@@ -3,7 +3,7 @@ export const project = [
     id: 8,
     title: "Nakamura FC",
     description:
-      "Nakamura FC is a <span> Football Academy and club </span> for both <span>Male and Female</span>.",
+      "Nakamura FC is a <span> football academy and club </span> for both <span>Males and Females</span>.",
     category: "WordPress,",
     others: "PHP, JavaScript",
     img: "./assets/img/work1.png",
@@ -13,7 +13,7 @@ export const project = [
     id: 7,
     title: "Optimuz Homez",
     description:
-      "Optimuz Homez is a real estate app for <span> Property, Rent </span>and <span>Sales</span>.",
+      "Optimuz Homez is a real estate app for <span> Property Rentals </span>and <span>Sales</span>.",
     category: "Design,",
     others: "Figma",
     img: "./assets/img/work7.png",
@@ -23,7 +23,7 @@ export const project = [
     id: 6,
     title: "CashWise Bank App",
     description:
-      "A prototype bank app <span> for the visual impaired. </span> it has features <span>Text to speech for accessibility </span>.",
+      "A prototype bank app <span> for the visual impaired. </span> it features <span>Text to speech for accessibility </span>.",
     category: "Design,",
     others: "Adobe XD",
     img: "./assets/img/work8.png",
@@ -33,7 +33,7 @@ export const project = [
     id: 5,
     title: "E-waste Management",
     description:
-      "An e-waste management app<span> for recycle waste around lagos </span> with ease.<span>With the help of geolocation to pin point waste junctions</span>.",
+      "An e-waste management app<span> for recycle waste around Lagos </span> with ease.<span> It utilizes geolocation to pinpoint waste collection points.</span>.",
     category: "Design,",
     others: "Figma",
     img: "./assets/img/work6.png",

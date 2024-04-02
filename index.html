@@ -32,9 +32,14 @@
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="theme-color" content="#000">
   <!--
+      - AOS Animation
+     -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--
     - Custom CSS link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
@@ -99,10 +104,11 @@
       <section class="section hero" aria-label="hero">
         <div class="container">
           <div class="hero-content">
-            <h1 class="h1">I specialized into <span>Web App </span> & <span>Mobile App</span> Designs
+            <h1 class="h1" data-aos="fade-right">I specialize in <span>Web App </span> and <span>Mobile App</span>
+              Designs
             </h1>
-            <p class="p">HTML/CSS & JS, React.js, SCSS,
-              WordPress, Figma, XD etc...
+            <p class="p" data-aos="fade-up">I have experience with HTML/CSS, JavaScript, React.js, SCSS, WordPress,
+              Figma, and more.
             </p>
           </div>
         </div>
@@ -111,11 +117,13 @@
         - #WORK
        -->
       <section class="section work" aria-label="work" id="work">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
           <h2 class="h2 section-title">Featured<span>Works</span></h2>
-          <p class="p section-subtitle">I am young passionate, and energetic. I <span>learn</span> and <span>grow</span>
+          <p class="p section-subtitle">I am young, passionate, and energetic. I <span>learn</span> and
+            <span>grow</span>
             with you through
-            our projects together. Check out my featured <span>projects!</span></p>
+            our projects together. Check out my featured <span>projects!</span>
+          </p>
 
           <div class="work-section">
             <ul class="work-list">
@@ -131,25 +139,25 @@
        -->
       <section class="section about" arial-label="about" id="about">
         <div class="container">
-          <div class="about-content">
+          <div class="about-content" data-aos="fade-right">
             <p class="about-title">A bit about me</p>
-            <p class="about-text p">Hi <span>👋, I'm Emmanuel Akinfulubi</span> and I have a strong passion for creating
+            <p class="about-text p">Hi <span>👋, I'm Emmanuel Akinfulubi.</span> I have a strong passion for creating
               creative, visually stunning, and interactive Designs. Learning to program has allowed me to
               transform my
-              creative ideas into reality, <span>and I take great pleasure in building Web App and Mobile App.</span>
+              creative ideas into reality, <span>and I take great pleasure in building Web and Mobile App.</span>
             </p>
           </div>
           <div class="about-img-wrapper">
             <div class="column1">
-              <div class="card-banner img-holder" style="--height: 174;">
+              <div class="card-banner img-holder" style="--height: 174;" data-aos="fade-left">
                 <img src="./assets/img/about1.png" alt="" class="img-cover">
               </div>
             </div>
             <div class="column2">
-              <div class="card-banner img-holder" style="--height: 174;">
+              <div class="card-banner img-holder" style="--height: 174;" data-aos="fade-down">
                 <img src=" ./assets/img/about2.png" alt="" class="img-cover">
               </div>
-              <div class="card-banner img-holder" style="--height: 174;">
+              <div class="card-banner img-holder" style="--height: 174;" data-aos="fade-up">
                 <img src="./assets/img/about3.png" alt="" class="img-cover">
               </div>
             </div>
@@ -160,12 +168,12 @@
         #CTA
        -->
       <section class="section cta" id="contact">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
           <div class="cta-top">
             <p class="cta-title h1">Get <span>in Touch.</span></p>
             <p class="cta-text p">I collaborate with great and ambitious people</p>
-            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=emmanuelakinfulubi@gmail.com"
-              class="cta-link" target="_blank" rel="noopener">emmanuelakinfulubi@gmail.com</a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hello@emmanuelakbi.com"
+              class="cta-link" target="_blank" rel="noopener">Hello@emmanuelakbi.com</a>
           </div>
           <div class="cta-socials">
             <div class="icon-container">
@@ -211,6 +219,16 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!--
+    - AOS Script
+   -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+    });
+  </script>
 </body>
 
 </html>
