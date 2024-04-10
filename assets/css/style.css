@@ -233,6 +233,7 @@ body {
 
 .section {
   padding-block-end: var(--section-spacing);
+  overflow: hidden;
 }
 
 .logo-icon {
