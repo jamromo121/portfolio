@@ -1,5 +1,15 @@
 export const project = [
   {
+    id: 9,
+    title: "SPOTTA NG",
+    description:
+      "See through the <span>lenses of people</span> who have lived or visited the <span>neighbourhood you might have in mind.</span>",
+    category: "Design,",
+    others: "Figma",
+    img: "./assets/img/work9.png",
+    link: "https://bit.ly/3U2lMUN",
+  },
+  {
     id: 8,
     title: "Nakamura FC",
     description:
