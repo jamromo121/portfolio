@@ -13,7 +13,7 @@ export const project = [
     id: 8,
     title: "Nakamura FC",
     description:
-      "Nakamura FC is a <span> football academy and club </span> for both <span>Males and Females</span>.",
+      "Nakamura FC is a <span> football academy and club </span> for both <span>Male and Female</span>.",
     category: "WordPress,",
     others: "PHP, JavaScript",
     img: "./assets/img/work1.png",
