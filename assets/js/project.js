@@ -24,7 +24,7 @@ export const project = [
     title: "Optimuz Homez",
     description:
       "Optimuz Homez is a real estate app for <span> Property Rentals </span>and <span>Sales</span>.",
-    category: "Design,",
+    category: "Flutter, Design,",
     others: "Figma",
     img: "./assets/img/work7.png",
     link: "https://www.figma.com/file/QdGMxn0FQWA5hDriMLdoSl/OptimuzHomez?type=design&node-id=0%3A1&mode=design&t=UWWMa35vNYAkS57A-1",
