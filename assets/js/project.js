@@ -10,7 +10,17 @@ export const project = [
   //   link: "https://bit.ly/3U2lMUN",
   // },
   {
-    id: 8,
+    id: 10,
+    title: "Softimi Solution Limited",
+    description:
+      "Leading Provider of <span>Telecommunication</span> and <span>Energy Solution.</span>",
+    category: "WordPress,",
+    others: "PHP, JavaScript",
+    img: "./assets/img/work9.png",
+    link: "https://nakamurafc.com/",
+  },
+  {
+    id: 9,
     title: "Nakamura FC",
     description:
       "Nakamura FC is a <span> football academy and club </span> for both <span>Male and Female</span>.",
@@ -20,13 +30,23 @@ export const project = [
     link: "https://nakamurafc.com/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Optimuz Homez",
     description:
       "Optimuz Homez is a real estate app for <span> Property Rentals </span>and <span>Sales</span>.",
     category: "Flutter, Design,",
     others: "Figma",
     img: "./assets/img/work7.png",
+    link: "https://www.figma.com/file/QdGMxn0FQWA5hDriMLdoSl/OptimuzHomez?type=design&node-id=0%3A1&mode=design&t=UWWMa35vNYAkS57A-1",
+  },
+  {
+    id: 7,
+    title: "Prime Virtuelle Gas Network",
+    description:
+      "Reliable, Efficient, <span>Sustainable Energy Solutions</span> Using <span>CNG.</span>",
+    category: "WordPress,",
+    others: "PHP, JavaScript",
+    img: "./assets/img/work10.png",
     link: "https://www.figma.com/file/QdGMxn0FQWA5hDriMLdoSl/OptimuzHomez?type=design&node-id=0%3A1&mode=design&t=UWWMa35vNYAkS57A-1",
   },
   {
