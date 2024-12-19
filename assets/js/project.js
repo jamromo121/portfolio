@@ -17,7 +17,7 @@ export const project = [
     category: "WordPress,",
     others: "PHP, JavaScript",
     img: "./assets/img/work9.png",
-    link: "https://nakamurafc.com/",
+    link: "https://softimisolution.com/",
   },
   {
     id: 9,
@@ -47,7 +47,7 @@ export const project = [
     category: "WordPress,",
     others: "PHP, JavaScript",
     img: "./assets/img/work10.png",
-    link: "https://www.figma.com/file/QdGMxn0FQWA5hDriMLdoSl/OptimuzHomez?type=design&node-id=0%3A1&mode=design&t=UWWMa35vNYAkS57A-1",
+    link: "https://pvgnl.com/",
   },
   {
     id: 6,
