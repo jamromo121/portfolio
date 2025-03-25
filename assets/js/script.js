@@ -63,8 +63,8 @@ const displayWorks = (workItems) => {
                   <p class="workBox-title">${item.title}</p>
                   <p class="workBox-text p">${item.description}</p>
                   <p class="workBox-category">${item.category} ${item.others}</p>
-                  <a href="${item.link}" target="_blank" class="btn btn-primary">View Work
-                    <ion-icon name="arrow-forward-outline"></ion-icon></a>
+                  
+                   
                 </div>
               </li>`;
   });
