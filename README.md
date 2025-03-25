@@ -1,5 +1,10 @@
-# Landing-Page-With-AOS-Animation-HTML-CSS-JS
+# My Projects Portfolio  
 
-Personal Portfolio of Emmanuel, Interactive Design built with HTML, CSS and JavaScript, AOS Animation
+Welcome to my personal project portfolio! 🚀  
 
-## Live Link: [https://emmanuelakbi.netlify.app/](https://emmanuelakbi.netlify.app/)
+This repository contains various projects that I have worked on, showcasing my skills in web development, programming, and software engineering.  
+
+Feel free to explore and reach out if you have any questions or suggestions!  
+
+---
+✉️ Contact: jamromo121@gmail.com   
